@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Calendar",
+  "author": "Dimitry Ivanov <2@iavnoff.org.ua> $ curl -A cv ivanoff.org.ua",
+  "version": "1.0",
+  "minimum_chrome_version": "22",
+  "description": "Calendar",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": [
+        "calendar.js"
+      ]
+    }
+  },
+  "permissions": [
+    "webview",
+    "notifications"
+  ]
+}
